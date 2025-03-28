@@ -27,39 +27,41 @@
   <link rel="stylesheet" href="css/animate.css" />
   <!-- Custom  CSS -->
   <link rel="stylesheet" href="css/style.css" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
   <header>
-    <!--Start Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-inner fixed-top custom-nav sticky w-100 rounded-0 mb-0">
+    <nav class="navbar navbar-expand-lg navbar-inner fixed-top custom-nav sticky w-100 rounded-0 mb-0"
+    style="padding: 5px;">
       <div class="menu-overlay"></div>
       <div class="container adjust-nav">
-        <!-- LOGO -->
-        <a class="navbar-brand brand-logo mr-4" href="index.html">
+
+        <a class="navbar-brand brand-logo mr-4" href="index.html" style="margin-left: 50px;">
           <img src="images/icons-ult/Logo.png" class="img-fluid logo-light logotipo" />
           <img src="images/icons-ult/Logo.png" class="img-fluid logo-dark logotipo-collapse logotipo" alt="" />
         </a>
-        <div class="navbar-collapse collapse justify-content-end mr-3" id="navbarCollapse">
+        <div class="navbar-collapse collapse justify-content-end mr-3" id="navbarCollapse" style="flex-grow: unset;">
           <ul class="navbar-nav navbar-center">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link text-white text-uppercase">Home</a>
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link text-white">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about-us.html" class="nav-link text-white transition text-uppercase">Quem somos</a>
+              <a href="about-us.html" class="nav-link text-white transition">Quem somos</a>
             </li>
             <!-- <li class="nav-item">
-              <a href="evolucao.html" class="nav-link text-white transition text-uppercase">Evolução</a>
+              <a href="evolucao.html" class="nav-link text-white transition">Evolução</a>
             </li> -->
             <li class="nav-item">
-              <a href="brasil-id.html" class="nav-link text-white transition text-uppercase">BRASIL-ID</a>
+              <a href="brasil-id.html" class="nav-link text-white transition">Brasil-ID</a>
             </li>
-            <li class="nav-item active">
-              <a href="solucao.html" class="nav-link text-white transition text-uppercase">Solução</a>
+            <li class="nav-item">
+              <a href="solucao.html" class="nav-link text-white transition">Solução</a>
             </li>
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle text-white transition text-uppercase"
-                data-toggle="dropdown">Projetos</a>
+              <a href="#" class="nav-link dropdown-toggle text-white transition" data-toggle="dropdown">Projetos</a>
               <ul class="nav-bar submenu dropdown-menu list-unstyled p-0">
                 <li class="nav-item">
                   <a href="projeto-1-columns.html" class="nav-link">Licenças Especiais</a>
@@ -77,11 +79,10 @@
               </ul>
             </li>
             <!-- <li class="nav-item">
-              <a href="parceiros.html" class="nav-link text-white transition text-uppercase">PARCEIROS</a>
+              <a href="parceiros.html" class="nav-link text-white transition">PARCEIROS</a>
             </li> -->
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle text-white transition text-uppercase"
-                data-toggle="dropdown">TECNOLOGIAS</a>
+              <a href="#" class="nav-link dropdown-toggle text-white transition" data-toggle="dropdown">Tecnologias</a>
               <ul class="nav-bar submenu dropdown-menu list-unstyled p-0">
                 <li class="nav-item">
                   <a href="tecnologia-1.html" class="nav-link">RFID</a>
@@ -92,16 +93,17 @@
                 <li class="nav-item">
                   <a href="tecnologia-3.html" class="nav-link">NB IOT</a>
                 </li>
+
               </ul>
             </li>
             <li class="nav-item">
-              <a href="trabalhe-conosco.html" class="nav-link text-white text-uppercase">Trabalhe Conosco</a>
+              <a href="trabalhe-conosco.html" class="nav-link text-white">Trabalhe Conosco</a>
             </li>
           </ul>
         </div>
         <div class="contact_btn">
           <a href="contactus.html"
-            class="btn theme-btn text-capitalize d-flex justify-content-center align-items-center">CONTATO</a>
+            class="btn theme-btn text-capitalize d-flex justify-content-center align-items-center">Contato</a>
           <button class="navbar-toggler ml-2 p-0 mb-0" type="button" data-toggle="collapse"
             data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -111,8 +113,6 @@
       </div>
     </nav>
   </header>
-  <!-- End Navbar -->
-  <!-- BradCrumb header Start-->
   <section class="inner-header-bg banner-solucao">
     <div class="container">
       <div class="section-breadcrumb">
@@ -136,7 +136,7 @@
 
   <section id="rfid" class="py-5 bg-white">
     <div class="container">
-      <!-- Título -->
+
       <div class="col-12 text-center mb-5 header-responsive">
         <h1 class="title-solucao">O problema​</h1>
         <h1 class="title mb-4 text-md-left text-center f-40 title-responsive">O Problema</h1>
@@ -197,11 +197,14 @@
   </section>
 
 
-  <section class="bg-light section py-3">
+  <section class="bg-light section py-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-8">
-          <h1 class="mb-4 text-md-left text-center mt-4 f-40">Plataforma de Monitoramento</h1>
+          <!-- Ícone de monitoramento -->
+          <h1 class="mb-4 text-md-left text-center mt-4 f-40">
+            <i class="fas fa-tachometer-alt mr-2"></i> Plataforma de Monitoramento
+          </h1>
           <p class="lead text-justify">
             O sistema oferece recursos avançados e integrados para atender a diferentes necessidades, 
             como segurança, logística, gestão de frota e análise de dados. Com tecnologia de ponta, 
@@ -213,11 +216,13 @@
     </div>
   </section>
   
-  <section class="bg-white section py-3">
+  <section class="bg-white section py-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-8">
-          <h1 class="mb-4 text-md-left mt-4 text-center f-40">Aplicativo Mobile</h1>
+          <h1 class="mb-4 text-md-left mt-4 text-center f-40">
+            <i class="fas fa-mobile-alt mr-2"></i> Aplicativo Mobile
+          </h1>
           <p class="lead text-justify">
             Ter um aplicativo mobile permite que a empresa não apenas otimize suas operações, 
             mas também fortaleça sua imagem perante clientes e colaboradores. Com uma solução 
@@ -228,14 +233,14 @@
       </div>
     </div>
   </section>
+  
 
-  <section class="bg-light section py-3">
+  <section class="bg-light section py-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-12">
           <h1 class="mb-4 text-center f-40 mt-4">Vertentes</h1>
           <div class="row">
-            <!-- Card 1: Veículos de Carga -->
             <div class="col-12 col-md-4 mb-4">
               <div class="card shadow-sm" style="height: 250px;">
                 <div class="card-body">
@@ -246,7 +251,6 @@
                 </div>
               </div>
             </div>
-            <!-- Card 2: Vans e Ônibus Escolares -->
             <div class="col-12 col-md-4 mb-4">
               <div class="card shadow-sm" style="height: 250px;">
                 <div class="card-body">
@@ -258,7 +262,6 @@
                 </div>
               </div>
             </div>
-            <!-- Card 3: Vans e Ônibus Fretados -->
             <div class="col-12 col-md-4 mb-4">
               <div class="card shadow-sm" style="height: 250px;">
                 <div class="card-body">
@@ -269,7 +272,6 @@
                 </div>
               </div>
             </div>
-            <!-- Card 4: Ambulâncias -->
             <div class="col-12 col-md-4 mb-4">
               <div class="card shadow-sm" style="height: 250px;">
                 <div class="card-body">
@@ -280,7 +282,6 @@
                 </div>
               </div>
             </div>
-            <!-- Card 5: Caminhões de Lixo -->
             <div class="col-12 col-md-4 mb-4">
               <div class="card shadow-sm" style="height: 250px;">
                 <div class="card-body">
@@ -292,7 +293,6 @@
                 </div>
               </div>
             </div>
-            <!-- Card 6: Caçambas/Entulhos -->
             <div class="col-12 col-md-4 mb-4">
               <div class="card shadow-sm" style="height: 250px;">
                 <div class="card-body">
@@ -314,7 +314,7 @@
   
   
 
-  <section id="rfid" class="bg-light section" style="padding-top: 0px;">
+  <section id="rfid" class="bg-light section wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s" style="padding-top: 0px;">
     <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 300" version="1.1"
       xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -376,7 +376,7 @@
     </div>
   </section>
 
-  <section class="bg-white section" style="padding-top: 0px;">
+  <section class="bg-white section wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s" style="padding-top: 0px;">
     <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 300" version="1.1"
       xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -506,7 +506,85 @@
   </section>
 
 
-  <!-- Start Footer -->
+  <section class="bg-white section wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s" >
+    <div class="container">
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 class="mb-4 text-md-left text-center f-40 mb-4">PGL - Plataforma de Gestão Logística</h2>
+        <p class="lead text-justify">
+          A PGL oferece procedimentos eletrônicos de campo que visam melhorar o controle de processos logísticos e
+          garantir a rastreabilidade completa das operações.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 mb-4">
+        <h3 class="mb-3 f-30 mt-4 mb-4">Procedimentos Eletrônicos de Campo</h3>
+        <ul>
+          <li>Identificação RFID</li>
+          <li>Fluxo Físico</li>
+          <li>Embarque</li>
+          <li>Identificação Eletrônica</li>
+          <li>Manejo Eletrônico (Vermifugação, inventários, vacinação, etc.)</li>
+          <li>Registro de Embarque/Desembaque</li>
+          <li>Emissão de Guias / Documentos</li>
+          <li>Registro de morte e nascimento na propriedade</li>
+        </ul>
+        <p><strong>Observação:</strong> Todo procedimento de campo é georreferenciado (GPS).</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <h3 class="mb-3 f-30 mt-4 mb-4">Cadeia de Produção e Logística Eletrônica</h3>
+        <p class="lead text-justify">
+          A plataforma permite a gestão eletrônica completa de documentos durante a cadeia de produção e transporte de
+          mercadorias, garantindo eficiência e rastreabilidade.
+        </p>
+        <ul>
+          <li>Certificado Sanitário Internacional</li>
+          <li>Guia de Trânsito Animal Eletrônico (GTA-e)</li>
+          <li>Registro de Exportação (RE)</li>
+          <li>Nota Fiscal</li>
+          <li>Bill of Landing (BL)</li>
+          <li>Requerimento</li>
+          <li>Certificado de Origem</li>
+          <li>Packing List</li>
+          <li>Commercial Invoice</li>
+          <li>Declaração de Despacho de Exportação (DDE)</li>
+          <li>Carta Temperatura</li>
+          <li>Outros documentos eletrônicos</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 class="mb-4 text-md-left text-center f-40 mb-4">Validação Eletrônica de Embarque</h2>
+        <p class="lead text-justify">
+          O transporte será liberado somente após o registro do veículo e do responsável, garantindo o controle do
+          estabelecimento de origem.
+          Somente animais que cumpriram todas as regras sanitárias serão embarcados, garantindo a conformidade com as
+          regulamentações.
+        </p>
+        <p><strong>Observação:</strong> Animais não aptos para embarque (Ex: Animais em quarentena, ERA inconsistente,
+          não vacinados) não serão liberados para o transporte.</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 class="mb-4 text-md-left text-center f-40 mb-4">Rastreabilidade de Processos</h2>
+        <p class="lead text-justify">
+          A plataforma oferece uma poderosa rastreabilidade de processos, totalmente desenvolvida em Web Base e voltada para a gestão da rastreabilidade eletrônica em tempo real. 
+          Com diversas ferramentas, permite o desenvolvimento de aplicativos especializados para diferentes mercados.
+          Sua estrutura arquitetônica conta com uma base de dados segmentada em cadastro, gestão de processos, auditoria e relatórios, garantindo eficiência e segurança no controle das operações.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+
+
   <footer class="section footer position-relative">
     <img src="images/icons-ult/forma1-teste.png" class="grafismo">
     <div class="container">

@@ -47,7 +47,6 @@ body {
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    font-style: italic;
     font-size: 48px;
     line-height: 1.2;
     letter-spacing: 0.06em;
@@ -58,7 +57,6 @@ h1 {
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    font-style: italic;
     font-size: 25px;
     line-height: 1.2;
     letter-spacing: 0.06em;
@@ -674,7 +672,7 @@ button:focus {
     position: relative;
     color: #000;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: normal !important;
     transition: all 0.3s ease;
 }
 
@@ -1153,8 +1151,8 @@ hr {
 }
 
 .logotipo {
-    max-width: 70px;
-    width: 70px;
+    max-width: 100px;
+    width: 100px;
 }
 
 .nav-link {
@@ -1871,6 +1869,14 @@ strong {
 }
 
 @media only screen and (max-width: 767px) {
+
+    .contact-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .container {
         max-width: 98%;
     }
@@ -2083,3 +2089,11 @@ strong {
         top: 20px;
     }
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(0deg) brightness(0) contrast(100%) !important;
+}
+
+
+

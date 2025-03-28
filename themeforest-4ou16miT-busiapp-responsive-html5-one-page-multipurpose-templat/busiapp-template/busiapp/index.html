@@ -25,6 +25,8 @@
   <!-- Custom  CSS -->
   <link rel="stylesheet" href="css/style.css" />
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <!-- Recapchat -->
 
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -34,35 +36,34 @@
 
 <body>
   <header>
-    <!--Start Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-inner fixed-top custom-nav sticky w-100 rounded-0 mb-0">
+    <nav class="navbar navbar-expand-lg navbar-inner fixed-top custom-nav sticky w-100 rounded-0 mb-0"
+    style="padding: 5px;">
       <div class="menu-overlay"></div>
       <div class="container adjust-nav">
-        <!-- LOGO -->
-        <a class="navbar-brand brand-logo mr-4" href="index.html">
+
+        <a class="navbar-brand brand-logo mr-4" href="index.html" style="margin-left: 50px;">
           <img src="images/icons-ult/Logo.png" class="img-fluid logo-light logotipo" />
           <img src="images/icons-ult/Logo.png" class="img-fluid logo-dark logotipo-collapse logotipo" alt="" />
         </a>
-        <div class="navbar-collapse collapse justify-content-end mr-3" id="navbarCollapse">
+        <div class="navbar-collapse collapse justify-content-end mr-3" id="navbarCollapse" style="flex-grow: unset;">
           <ul class="navbar-nav navbar-center">
             <li class="nav-item active">
-              <a href="index.html" class="nav-link text-white text-uppercase">Home</a>
+              <a href="index.html" class="nav-link text-white">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about-us.html" class="nav-link text-white transition text-uppercase">Quem somos</a>
+              <a href="about-us.html" class="nav-link text-white transition">Quem somos</a>
             </li>
             <!-- <li class="nav-item">
-              <a href="evolucao.html" class="nav-link text-white transition text-uppercase">Evolução</a>
+              <a href="evolucao.html" class="nav-link text-white transition">Evolução</a>
             </li> -->
             <li class="nav-item">
-              <a href="brasil-id.html" class="nav-link text-white transition text-uppercase">BRASIL-ID</a>
+              <a href="brasil-id.html" class="nav-link text-white transition">Brasil-ID</a>
             </li>
             <li class="nav-item">
-              <a href="solucao.html" class="nav-link text-white transition text-uppercase">Solução</a>
+              <a href="solucao.html" class="nav-link text-white transition">Solução</a>
             </li>
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle text-white transition text-uppercase"
-                data-toggle="dropdown">Projetos</a>
+              <a href="#" class="nav-link dropdown-toggle text-white transition" data-toggle="dropdown">Projetos</a>
               <ul class="nav-bar submenu dropdown-menu list-unstyled p-0">
                 <li class="nav-item">
                   <a href="projeto-1-columns.html" class="nav-link">Licenças Especiais</a>
@@ -80,11 +81,10 @@
               </ul>
             </li>
             <!-- <li class="nav-item">
-              <a href="parceiros.html" class="nav-link text-white transition text-uppercase">PARCEIROS</a>
+              <a href="parceiros.html" class="nav-link text-white transition">PARCEIROS</a>
             </li> -->
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle text-white transition text-uppercase"
-                data-toggle="dropdown">TECNOLOGIAS</a>
+              <a href="#" class="nav-link dropdown-toggle text-white transition" data-toggle="dropdown">Tecnologias</a>
               <ul class="nav-bar submenu dropdown-menu list-unstyled p-0">
                 <li class="nav-item">
                   <a href="tecnologia-1.html" class="nav-link">RFID</a>
@@ -99,13 +99,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="trabalhe-conosco.html" class="nav-link text-white text-uppercase">Trabalhe Conosco</a>
+              <a href="trabalhe-conosco.html" class="nav-link text-white">Trabalhe Conosco</a>
             </li>
           </ul>
         </div>
         <div class="contact_btn">
           <a href="contactus.html"
-            class="btn theme-btn text-capitalize d-flex justify-content-center align-items-center">CONTATO</a>
+            class="btn theme-btn text-capitalize d-flex justify-content-center align-items-center">Contato</a>
           <button class="navbar-toggler ml-2 p-0 mb-0" type="button" data-toggle="collapse"
             data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -115,8 +115,7 @@
       </div>
     </nav>
   </header>
-  <!-- End Navbar -->
-  <!-- Home Start-->
+
   <section class="main-header bg-header banner-principal">
     <div class="home-bg-img">
       <div class="container">
@@ -225,59 +224,57 @@
       </div>
     </div>
   </section>
-  <!-- Home End -->
-  <!-- Start Aboutus -->
 
-  <section class="section bg-white section">
+  <section class="section bg-white wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s">
     <div class="container">
+      <div class="title-section mb-4 text-center text-lg-start">
+        <h1 class="title f-40">Sobre a DataSmartCom</h1>
+      </div>
       <div class="about-bottom-section mt-5">
-
         <div class="mt-4">
-          <div class="row">
-
-            <!-- Coluna com mais largura -->
-            <div
-              class="col-lg-8 offset-lg-2 mt-lg-0 mt-4 d-flex flex-column justify-content-between text-who-we-are-DataSmartCom">
-
-              <!-- Título não responsivo (normal) -->
-              <div class="title-section mb-4 text-center">
-                <h1 class="title f-40">Sobre a DataSmartCom</h1>
-              </div>
+          <div class="row align-items-start"> 
+  
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img src="./images/icons-ult/sobre-imagem.jpg" class="img-fluid rounded" alt="Sobre a DataSmartCom">
+            </div>
+  
+            <div class="col-lg-8 d-flex flex-column justify-content-between text-who-we-are-DataSmartCom">
 
               <p class="f-18">
                 A <strong>DataSmartCom</strong> foi fundada com o propósito de transformar o setor de transporte e
                 logística, oferecendo soluções tecnológicas que garantem maior eficiência, produtividade e segurança em
                 todos os modais de transporte.
               </p>
-              <p class="f-18">
+              <p class="f-18 mt-3">
                 Com uma equipe de especialistas e uma sólida experiência no mercado transacional eletrônico, a
                 DataSmartCom combina inovação e expertise para atender às necessidades do mercado Brasileiro e
                 Latino-Americano. Seus serviços são pautados pela criação e fabricação de sistemas inteligentes que
                 otimizam processos e promovem o desenvolvimento do setor logístico.
               </p>
-              <p class="f-18">
+              <p class="f-18 mt-3">
                 Por meio de parcerias estratégicas com o setor público e privado, a DataSmartCom desenvolve tecnologias
                 seguras e aderentes aos mais altos padrões nacionais e internacionais, assegurando compliance,
                 rastreabilidade e eficiência nas operações logísticas.
               </p>
-              <p class="f-18">
+              <p class="f-18 mt-3">
                 Com um modelo de negócios orientado à eficiência, a DataSmartCom se posiciona como parceira estratégica
                 para empresas que buscam modernizar seus processos logísticos e reduzir custos operacionais de forma
                 sustentável.
               </p>
             </div>
-
+  
           </div>
         </div>
       </div>
     </div>
   </section>
+  
+  
 
 
-  <!-- About founder -->
 
-  <section class="section about-founder bg-light" style="padding-top: 0px;">
-    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 300" version="1.1"
+  <section class="section about-founder bg-light wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
+    <!-- <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 300" version="1.1"
       xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
@@ -288,18 +285,18 @@
       <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
         d="M0,240L120,225C240,210,480,180,720,140C960,100,1200,50,1440,70C1680,90,1920,180,2160,195C2400,210,2640,150,2880,110C3120,70,3360,50,3600,50C3840,50,4080,70,4320,95C4560,120,4800,150,5040,155C5280,160,5520,140,5760,125C6000,110,6240,100,6480,115C6720,130,6960,170,7200,155C7440,140,7680,70,7920,45C8160,20,8400,40,8640,60C8880,80,9120,100,9360,95C9600,90,9840,60,10080,70C10320,80,10560,130,10800,155C11040,180,11280,180,11520,185C11760,190,12000,200,12240,175C12480,150,12720,90,12960,90C13200,90,13440,150,13680,160C13920,170,14160,130,14400,95C14640,60,14880,30,15120,40C15360,50,15600,100,15840,130C16080,160,16320,170,16560,155C16800,140,17040,100,17160,80L17280,60L17280,300L17160,300C17040,300,16800,300,16560,300C16320,300,16080,300,15840,300C15600,300,15360,300,15120,300C14880,300,14640,300,14400,300C14160,300,13920,300,13680,300C13440,300,13200,300,12960,300C12720,300,12480,300,12240,300C12000,300,11760,300,11520,300C11280,300,11040,300,10800,300C10560,300,10320,300,10080,300C9840,300,9600,300,9360,300C9120,300,8880,300,8640,300C8400,300,8160,300,7920,300C7680,300,7440,300,7200,300C6960,300,6720,300,6480,300C6240,300,6000,300,5760,300C5520,300,5280,300,5040,300C4800,300,4560,300,4320,300C4080,300,3840,300,3600,300C3360,300,3120,300,2880,300C2640,300,2400,300,2160,300C1920,300,1680,300,1440,300C1200,300,960,300,720,300C480,300,240,300,120,300L0,300Z">
       </path>
-    </svg>
-    <h1 class="title-brasil-id">Sobre o Fundador</h1>
+    </svg> -->
+    <h1 class="text-center mb-4">Sobre o Fundador</h1>
     <h1 class="title-responsive text-md-left text-center f-40 mt-4">Sobre o Fundador</h1>
     <div class="container">
-      <div class="about-bottom-section mt-5 wow fadeInUp alimentos" data-wow-delay="0.6s" data-wow-duration="1s">
+      <div class="about-bottom-section mt-5 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
         <div class="mt-4">
-          <div class="row align-items-center">
+          <div class="row align-items-center align-items-stretch">
             <div class="col-lg-5">
               <img src="images/icons-ult/fundador.png" alt="Imagem do Fundador Tommy Miyata" class="w-100 img-fluid" />
             </div>
             <div class="col-lg-7 mt-lg-0 mt-4">
-              <h1 class="font-sm-24">
+              <h1 class="font-sm-24 text-dark">
                 Tommy Miyata - Fundador e CEO da DataSmartCom
               </h1>
               <p class="f-18 mb-2">
@@ -332,8 +329,7 @@
   </section>
 
 
-
-  <section class="bg-white section">
+  <section class="bg-white section py-5 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-12">
@@ -342,28 +338,52 @@
           </h1>
           <p class="lead text-justify">
             Nossa plataforma oferece soluções inovadoras para diversos segmentos, garantindo eficiência, segurança e
-            rastreabilidade
-            em processos estratégicos. Entre os principais mercados atendidos, destacam-se:
+            rastreabilidade em processos estratégicos. Entre os principais mercados atendidos, destacam-se:
           </p>
-          <ul class="pt-4">
-            <li><strong>Cadeia Produtiva e Logística:</strong> Importadores e exportadores.</li>
-            <li><strong>Produção Agrícola e Pecuária:</strong> Foco na rastreabilidade.</li>
-            <li><strong>Empresas de Transporte e Logística:</strong> Atendendo distribuidores.</li>
-            <li><strong>Seguradoras:</strong> Análise de risco para maior segurança.</li>
-            <li><strong>Concessionários de Modais:</strong> Rodoviário, aéreo, fluvial, entre outros.</li>
-            <li><strong>Construtoras:</strong> Planejamento de obras eficiente.</li>
-            <li><strong>Compradores:</strong> Garantia de origem, qualidade e rastreabilidade.</li>
-            <li><strong>Comércio:</strong> Segurança e controle aprimorado.</li>
-            <li><strong>Certificadores:</strong> Atuação em protocolos comerciais.</li>
+          <ul class="pt-4 list-unstyled">
+            <li class="mb-3">
+              <i class="fas fa-truck-moving text-primary mr-2"></i>
+              <strong>Cadeia Produtiva e Logística:</strong> Importadores e exportadores.
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-seedling text-success mr-2"></i>
+              <strong>Produção Agrícola e Pecuária:</strong> Foco na rastreabilidade.
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-shipping-fast text-info mr-2"></i>
+              <strong>Empresas de Transporte e Logística:</strong> Atendendo distribuidores.
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-shield-alt text-warning mr-2"></i>
+              <strong>Seguradoras:</strong> Análise de risco para maior segurança.
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-road text-danger mr-2"></i>
+              <strong>Concessionários de Modais:</strong> Rodoviário, aéreo, fluvial, entre outros.
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-hard-hat text-secondary mr-2"></i>
+              <strong>Construtoras:</strong> Planejamento de obras eficiente.
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-user-check text-success mr-2"></i>
+              <strong>Compradores:</strong> Garantia de origem, qualidade e rastreabilidade.
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-store text-primary mr-2"></i>
+              <strong>Comércio:</strong> Segurança e controle aprimorado.
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-certificate text-info mr-2"></i>
+              <strong>Certificadores:</strong> Atuação em protocolos comerciais.
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </section>
-
-
-
-  <section class="bg-light section py-5">
+  
+  <section class="bg-light section py-5 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -395,189 +415,9 @@
         </div>
       </div>
 
-      <div class="row mt-5">
-        <div class="col-12">
-          <h2 class="mb-4 text-md-left text-center f-40 mb-4">PGL - Plataforma de Gestão Logística</h2>
-          <p class="lead text-justify">
-            A PGL oferece procedimentos eletrônicos de campo que visam melhorar o controle de processos logísticos e
-            garantir a rastreabilidade completa das operações.
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-md-6 mb-4">
-          <h3 class="mb-3 f-30 mt-4 mb-4">Procedimentos Eletrônicos de Campo</h3>
-          <ul>
-            <li>Identificação RFID</li>
-            <li>Fluxo Físico</li>
-            <li>Embarque</li>
-            <li>Identificação Eletrônica</li>
-            <li>Manejo Eletrônico (Vermifugação, inventários, vacinação, etc.)</li>
-            <li>Registro de Embarque/Desembaque</li>
-            <li>Emissão de Guias / Documentos</li>
-            <li>Registro de morte e nascimento na propriedade</li>
-          </ul>
-          <p><strong>Observação:</strong> Todo procedimento de campo é georreferenciado (GPS).</p>
-        </div>
-        <div class="col-12 col-md-6">
-          <h3 class="mb-3 f-30 mt-4 mb-4">Cadeia de Produção e Logística Eletrônica</h3>
-          <p class="lead text-justify">
-            A plataforma permite a gestão eletrônica completa de documentos durante a cadeia de produção e transporte de
-            mercadorias, garantindo eficiência e rastreabilidade.
-          </p>
-          <ul>
-            <li>Certificado Sanitário Internacional</li>
-            <li>Guia de Trânsito Animal Eletrônico (GTA-e)</li>
-            <li>Registro de Exportação (RE)</li>
-            <li>Nota Fiscal</li>
-            <li>Bill of Landing (BL)</li>
-            <li>Requerimento</li>
-            <li>Certificado de Origem</li>
-            <li>Packing List</li>
-            <li>Commercial Invoice</li>
-            <li>Declaração de Despacho de Exportação (DDE)</li>
-            <li>Carta Temperatura</li>
-            <li>Outros documentos eletrônicos</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="col-12">
-          <h2 class="mb-4 text-md-left text-center f-40 mb-4">Validação Eletrônica de Embarque</h2>
-          <p class="lead text-justify">
-            O transporte será liberado somente após o registro do veículo e do responsável, garantindo o controle do
-            estabelecimento de origem.
-            Somente animais que cumpriram todas as regras sanitárias serão embarcados, garantindo a conformidade com as
-            regulamentações.
-          </p>
-          <p><strong>Observação:</strong> Animais não aptos para embarque (Ex: Animais em quarentena, ERA inconsistente,
-            não vacinados) não serão liberados para o transporte.</p>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-12">
-          <h2 class="mb-4 text-md-left text-center f-40 mb-4">Rastreabilidade de Processos</h2>
-          <p class="lead text-justify">
-            A plataforma oferece uma poderosa rastreabilidade de processos, totalmente desenvolvida em Web Base e voltada para a gestão da rastreabilidade eletrônica em tempo real. 
-            Com diversas ferramentas, permite o desenvolvimento de aplicativos especializados para diferentes mercados.
-            Sua estrutura arquitetônica conta com uma base de dados segmentada em cadastro, gestão de processos, auditoria e relatórios, garantindo eficiência e segurança no controle das operações.
-          </p>
-        </div>
-      </div>
-    </div>
   </section>
 
-<!-- 
-  <section class="section bg-white wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s" style="padding-top: 0px;">
-    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 300" version="1.1"
-      xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-          <stop stop-color="rgba(0, 123, 255, 1)" offset="0%"></stop>
-          <stop stop-color="rgba(0, 123, 255, 1)" offset="100%"></stop>
-        </linearGradient>
-      </defs>
-      <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
-        d="M0,240L120,225C240,210,480,180,720,140C960,100,1200,50,1440,70C1680,90,1920,180,2160,195C2400,210,2640,150,2880,110C3120,70,3360,50,3600,50C3840,50,4080,70,4320,95C4560,120,4800,150,5040,155C5280,160,5520,140,5760,125C6000,110,6240,100,6480,115C6720,130,6960,170,7200,155C7440,140,7680,70,7920,45C8160,20,8400,40,8640,60C8880,80,9120,100,9360,95C9600,90,9840,60,10080,70C10320,80,10560,130,10800,155C11040,180,11280,180,11520,185C11760,190,12000,200,12240,175C12480,150,12720,90,12960,90C13200,90,13440,150,13680,160C13920,170,14160,130,14400,95C14640,60,14880,30,15120,40C15360,50,15600,100,15840,130C16080,160,16320,170,16560,155C16800,140,17040,100,17160,80L17280,60L17280,300L17160,300C17040,300,16800,300,16560,300C16320,300,16080,300,15840,300C15600,300,15360,300,15120,300C14880,300,14640,300,14400,300C14160,300,13920,300,13680,300C13440,300,13200,300,12960,300C12720,300,12480,300,12240,300C12000,300,11760,300,11520,300C11280,300,11040,300,10800,300C10560,300,10320,300,10080,300C9840,300,9600,300,9360,300C9120,300,8880,300,8640,300C8400,300,8160,300,7920,300C7680,300,7440,300,7200,300C6960,300,6720,300,6480,300C6240,300,6000,300,5760,300C5520,300,5280,300,5040,300C4800,300,4560,300,4320,300C4080,300,3840,300,3600,300C3360,300,3120,300,2880,300C2640,300,2400,300,2160,300C1920,300,1680,300,1440,300C1200,300,960,300,720,300C480,300,240,300,120,300L0,300Z">
-      </path>
-    </svg>
-    <h1 class="title-brasil-id">Conheça Nossos Projetos</h1>
-    <h1 class="title-responsive text-md-left text-center f-40 mt-4">Conheça Nossos Projetos</h1>
-    <div class="container">
-      <div class="row justify-content-center d-flex">
-        <div class="col-lg-4 col-sm-6">
-          <div class="mt-4">
-            <a class="text-dark" href="projeto-1-columns.html">
-              <div class="hover-block p-4 shadow wow fadeInUp alimentos" data-wow-delay="0.3s" data-wow-duration="1s">
-                <div class="features-inner-main text-center">
-                  <div class="features-inner-text text-sm-left text-center">
-                    <img src="images/icons-ult/carga-perigosa-transportes.jpg" class="img-projetos">
-                 
-                      Licenças Especiais No Âmbito Municipais, Estaduais e Federal
-                    </h3>
-                    <p class="para-text text-sm-left text-center mb-0">
-                      O sistema de Licenciamento Eletrônico de Transporte de Produtos Perigosos facilita o processo de
-                      obtenção da Licença Especial para o transporte de mercadorias perigosas. Regulamentado pelos
-                      Decretos nº 50.446/2009 e nº 60.448/2021, a plataforma permite que transportadores realizem o
-                      requerimento digitalmente, sem a necessidade de documentos físicos. A parceria com tecnologias de
-                      identificação eletrônica (TAG) agiliza a fiscalização e proporciona maior segurança, redução de
-                      custos e eficiência no transporte de mercadorias perigosas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="mt-4">
-            <a href="projeto-2-columns.html" class="text-dark">
-              <div class="hover-block p-4 shadow wow fadeInUp alimentos" data-wow-delay="0.3s" data-wow-duration="1s">
-                <div class="features-inner-text text-sm-left text-center">
-                  <img src="images/icons-ult/carga-pereciveis.jpg" class="img-projetos">
-                  <h3 class="my-3 text-sm-left text-center font-weight-bold">
-                    ALIMENTOS
-                  </h3>
-                  <p class="para-text text-sm-left text-center mb-0">
-                    A DataSmartCom, operadora homologada Brasil-ID, em parceria com o Estado de São Paulo, desenvolveu
-                    sistemas
-                    para a Companhia de Engenharia de Tráfego (CET), visando aprimorar a fiscalização no transporte de
-                    carga. O projeto utiliza a tecnologia LoRaWAN, homologada pela ANATEL, para rastrear veículos e suas
-                    cargas de forma eletrônica e segura. O Projeto Piloto de Alimentos Perecíveis em São Paulo visa
-                    implementar o Registro Eletrônico de Passagem e rastreamento, gerando dados em tempo real sobre a
-                    localização dos veículos, com integração aos documentos fiscais eletrônicos, garantindo maior
-                    segurança e eficiência na fiscalização.
-                  </p>
-                </div>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="mt-4">
-            <a href="projeto-3-columns.html" class="text-dark alimentos">
-              <div class="hover-block p-4 shadow wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
-                <div class="features-inner-text text-sm-left text-center">
-                  <img src="images/icons-ult/horus.jpg" class="img-projetos img-horus">
-                  <h3 class="my-3 text-sm-left text-center font-weight-bold">
-                    HÓRUS
-                  </h3>
-                  <p class="para-text text-sm-left text-center mb-0">
-                    Esse projeto combina tecnologia e estratégia para atender às demandas específicas de campanhas
-                    eleitorais modernas, proporcionando um diferencial competitivo para candidatos políticos ao otimizar
-                    a gestão de equipes em campo e ações de marketing digital.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="mt-4">
-            <a href="projeto-3-columns.html" class="text-dark alimentos">
-              <div class="hover-block p-4 shadow wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
-                <div class="features-inner-text text-sm-left text-center">
-                  <img src="images/icons-ult/gado.jpg" class="img-projetos img-horus">
-                  <h3 class="my-3 text-sm-left text-center font-weight-bold">
-                    Monitoramento Inteligente de Gado
-                  </h3>
-                  <p class="para-text text-sm-left text-center mb-0">
-                    Os chips de identificação eletrônica, fixados na orelha do boi, permitem o rastreamento preciso do
-                    rebanho em tempo real. Com essa tecnologia, é possível monitorar a localização, histórico de saúde e
-                    movimentação dos animais, garantindo uma gestão eficiente e segura. Além disso, facilita o controle
-                    sanitário e a rastreabilidade, agregando valor à cadeia produtiva.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-  </section> -->
-  <!-- End Features section -->
 
-  <!-- Satrt Contact us -->
   <section class="section contactus-section">
     <div class="container">
       <div class="title-section wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s">
@@ -585,8 +425,8 @@
       </div>
       <div class="wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1s">
         <div class="row">
-          <div class="col-md-5">
-            <div class="row">
+          <div class="col-md-5 ">
+            <div class="row contact-mobile">
               <div class="col-md-12 col-sm-4 py-sm-4 contact-item">
                 <div class="row align-items-center">
                   <div class="col-lg-2 col-md-3">
@@ -607,25 +447,6 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="col-md-12 col-sm-4 col-6 py-4 contact-item">
-                <div class="row align-items-center">
-                  <div class="col-lg-2 col-md-3">
-                    <div class="text-md-left text-center">
-                      <div class="icon-block transition bg-light d-inline-block rounded-circle p-3">
-                        <span
-                          class="icon mdi mdi-whatsapp d-flex align-items-center justify-content-center theme-color transition"></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-10 col-md-9">
-                    <div class="text-md-left text-center mt-lg-0 mt-4">
-                      <h4 class="theme-color f-20">Whatsapp:</h4>
-                      <a href="https://wa.me/11934232097" target="_blank" class="text-dark text-chat">(11)
-                        93423-2097</a>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
               <div class="col-md-12 col-sm-4 col-6 py-4 contact-item">
                 <div class="row align-items-center">
                   <div class="col-lg-2 col-md-3">
@@ -657,7 +478,7 @@
                   <div class="col-lg-10 col-md-9">
                     <div class="text-md-left text-center mt-lg-0 mt-4">
                       <h4 class="theme-color f-20">Email</h4>
-                      <a href="mailto: atendimento@DataSmartCom.com.br"
+                      <a href="mailto: atendimento@datasmartcom.com.br"
                         class="text-dark text-chat">atendimento@datasmartcom.com.br</a>
                     </div>
                   </div>
@@ -723,7 +544,7 @@
       </div>
     </div>
   </section>
-  <!-- End Contact us -->
+
   <footer class="section footer position-relative">
     <img src="images/icons-ult/forma1-teste.png" class="grafismo">
     <div class="container">
