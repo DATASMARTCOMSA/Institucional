@@ -1,38 +1,10 @@
-/*
--------------------------------------------------------------------------
-* Template Name    : Busiapp - Multi Purpose Html5 Landing Page      *
-* Author           : ParExcellence                                   *
-* Version          : 1.0.0                                           *
-* File Description : Main Css file of the template                   *
-*------------------------------------------------------------------------
-*/
 
-/********************************
-    1.BASIC                     *
-    2.HELPER                    *
-    3.BREADCRUMB                *
-    3.NAVBAR                    *
-    4.HOME                      *    
-    5.ABOUTUS                   *
-        5.1.ABOUTUS-INNERPAGE   *
-    6.FEATURES                  *
-    7.HOW IT WORKS              *
-    8.FAQ'S                     *
-    9.TEAM                      *
-    10.CLIENTS                  *
-    11.PORTFOLIO                *
-    12.BLOG-GRID                *
-    13.BLOG-DETAILS             *
-    14.CONTACT US               *
-    15.LOGIN                    *
-    16.FOOTER                   *
-    17.RESPONSIVE               *
-********************************/
-
-/*======================
-        1.BASIC
-========================*/
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+
+body, p, span, h1, h2, h3, h4, h5, h6, button, a, label, input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
