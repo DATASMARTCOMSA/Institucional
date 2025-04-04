@@ -1123,8 +1123,8 @@ hr {
 }
 
 .logotipo {
-    max-width: 100px;
-    width: 100px;
+    max-width: 150px;
+    width: 150px;
 }
 
 .nav-link {
@@ -1690,7 +1690,7 @@ strong {
     }
 
     .custom-nav>.container {
-        width: 85%;
+        width: 100%;
     }
 
     .custom-nav .brand-logo {
